@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EMPLOYEES.DAL\EMPLOYEES.DAL.csproj" />
+    <ProjectReference Include="..\EMPLOYEES.Model\EMPLOYEES.Model.csproj" />
+    <ProjectReference Include="..\EMPLOYEES.Repository.Common\EMPLOYEES.Repository.Common.csproj" />
+    <ProjectReference Include="..\EMPLOYEES.Repository\EMPLOYEES.Repository.csproj" />
+    <ProjectReference Include="..\EMPLOYEES.Sevice.Common\EMPLOYEES.Sevice.Common.csproj" />
+  </ItemGroup>
+
+</Project>
